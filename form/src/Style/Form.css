@@ -1,0 +1,99 @@
+body{
+	background-image:url('../Images/IMG_9598.PNG');
+}
+
+input{
+	width : 100%;
+	padding: 12px 12px 2px 2px;
+	margin-top: 8px ;
+	box-sizing: border-box;
+	border: none; 
+	border-bottom: 1px solid grey;
+	/* margin-left : 25%; */
+	color : grey;
+}
+
+table{
+	margin-top : 100px;
+	width : 100%;
+	border-collapse: collapse;
+}
+
+td{
+	width : 33%;
+}
+
+.tdWhite{
+	padding : 10px 70px 20px 70px;
+	background-color : white;
+}
+
+.tdRondBottom{
+	border-radius : 0px 0px 50px 50px;
+}
+
+.tdRondTop{
+	border-radius : 50px 50px 0px 0px;
+}
+
+.bouton{
+	background-color : skyblue;
+	color : white;
+	height : 45px;
+	width : 80px;
+	font-weight : bold;
+	border-radius : 50px;
+	outline:none;
+}
+
+.next{
+	float:right;
+}
+
+.back{
+	
+	float:left;
+}
+
+.submit{
+	float:right;
+	margin-top: 0px;
+	padding : 0px 8px 0px 8px;
+}
+
+.progressBar{
+	border-radius : 50%;
+	background-color : grey;
+	width : 30px;
+	height : 30px;
+	text-align : center;
+	padding-top : 5px;
+	color : white;
+	font-weight : bold;
+	margin-top : 10px;
+	
+}
+
+.progressBarLeft{
+	float:left;
+	
+}
+.progressBarCenter{
+	margin-left: 33%;
+	display : inline-block;
+	width : 30px;
+	height : 30px;
+	
+}
+
+.progressBarRight{
+	float : right;
+}
+
+#blue{
+	background-color : skyblue;
+}
+
+.langages{
+	float : right;
+}
